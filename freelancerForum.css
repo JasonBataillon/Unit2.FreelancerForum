@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: row;
+}
+aside {
+  flex-grow: 5;
+}
+main {
+  padding: 3ch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  outline: 1px solid black;
+}
+h1,
+div,
+h2,
+section {
+  margin: 10px;
+}
+ul {
+  list-style: none;
+  gap: 10px;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 2ch;
+}
+
+.occupationz {
+  padding-right: 9ch;
+  padding-left: 4ch;
+}
+.pricez {
+  padding-right: 3ch;
+}
+.occSec {
+  padding-right: 2ch;
+  padding-left: 2ch;
+}
+.sec1 {
+  padding-left: 2ch;
+}
